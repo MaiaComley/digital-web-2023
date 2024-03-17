@@ -11,4 +11,5 @@
 ### Saving your code
 1. Open "GitHub Desktop" & your project.
 2. In the bottom left type a summary for the work you've done
-3. 
+3. Click "Commit to main" Button
+4.   
