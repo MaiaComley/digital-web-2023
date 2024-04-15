@@ -91,7 +91,7 @@ body {
   position:absolute;
   top: 0;
   left: 0;
-  animation: titlefade 1s 2s forwards;
+  animation: titlefade 1s 3s forwards;
   object-fit: cover;
 }
 
@@ -115,14 +115,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 6rem;
-  animation: titlegrow 1s 2s forwards;
+  animation: titlegrow 1s 3s forwards;
   flex-direction: column;
   gap: 1.5rem;
   z-index: 1;
 }
 @keyframes titlemove {
   0% {
-    transform: translateY(calc(50% - 0.2em));
+    transform: translateY(4.5rem);
   }
   100% {
     transform: translateY(0);
@@ -132,9 +132,8 @@ body {
   font-size: 6rem;
   line-height: 0.8em;
   margin: 0;
-  transform: translateY(calc(50% - 0.2em));
   text-align: center;
-  animation: titlemove 1s 2s forwards;
+  animation: titlemove 1s 3s backwards;
 }
 @keyframes discoverfade {
   0% {
@@ -146,10 +145,12 @@ body {
   }
 }
 .landing-button {
-color: white;
-font-size: 2rem;
-text-decoration: none;
-font-family: "koulen";
-animation: discoverfade 1s 3s backwards;
-
+  color: white;
+  background-color: rgba(255, 255, 255, 0.118);
+  padding: 0.5rem 1.5rem;
+  letter-spacing: 0.15rem;
+  font-size: 2.4rem;
+  text-decoration: none;
+  font-family: "koulen";
+  animation: discoverfade 1s 3s backwards;
 }
