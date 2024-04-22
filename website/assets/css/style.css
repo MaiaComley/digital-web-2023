@@ -165,10 +165,29 @@ body {
 .homepage-hero img {
   width: 60%;
   height: 80%;
+ 
 }
 .trailer-bio {
   color: #000000;
   font-family: "koulen";
-  font-size: 0.7rem;
-  
+  font-size: 0.9rem;
+  padding: 0.5rem 1.5rem;
+  letter-spacing: 0.15rem;
+  text-align: right;
+  float: right;
+  margin-right: 20px;
 }
+
+  .backstory-amy {
+    color: #750605;
+    font-family: "Notable", sans-serif;
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 0.1rem 2.5rem;
+
+  }
+
+
+
+
+
