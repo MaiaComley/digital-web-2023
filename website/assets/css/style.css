@@ -352,3 +352,30 @@ font-size: 3rem;
   padding: 1.5rem 2rem;
   text-align: center;
 }
+
+.body-text {
+  color: #750605;
+  font-family: "koulen";
+  font-size: 1.4rem;
+  letter-spacing: 0.15rem;
+  font-weight: lighter;
+  padding-top: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+
+}
+
+.body-text h1 {
+  color: white;
+}
+
+.reference-text {
+  color: #fffcfc90;
+  font-size: 1rem;
+}
+
+.body-text img {
+  width: 70%;
+  height: 30%
+}
