@@ -172,8 +172,6 @@ body {
 
 }
 
-
-
 .homepage-hero img {
   width: 60%;
   height: 80%;
@@ -215,7 +213,6 @@ body {
 .homepage-amy-image img {
   height: 118vh;
 }
-
 
 .homepage-amy-text {
   flex-basis: 100%;
@@ -377,5 +374,6 @@ font-size: 3rem;
 
 .body-text img {
   width: 70%;
-  height: 30%
+  height: 30%;
+
 }
