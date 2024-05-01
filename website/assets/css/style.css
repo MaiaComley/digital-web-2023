@@ -64,7 +64,7 @@ body {
 .loading-spinner img {
   width: 100%;
   height: 100%;
-  animation: spin 1s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 @keyframes titlefade {
@@ -159,7 +159,7 @@ body {
   font-family: "Notable", sans-serif;
   text-align: right;
   font-size: 3.35rem;
-  padding: 0.1rem 2.5rem;
+  padding: 1rem 2.5rem;
   white-space: nowrap;
 }
 
@@ -367,13 +367,9 @@ font-size: 3rem;
   color: white;
 }
 
-.reference-text {
-  color: #fffcfc90;
-  font-size: 1rem;
-}
 
 .body-text img {
   width: 70%;
-  height: 30%;
+  height: 40%;
 
 }
