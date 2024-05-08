@@ -365,7 +365,6 @@ body {
 
 .body-text img {
   width: 70%;
-  height: 40%;
   object-fit: contain;
   object-position: top;
 }
