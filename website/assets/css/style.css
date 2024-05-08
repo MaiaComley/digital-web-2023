@@ -29,7 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--contrast);
-  animation: slideLoadingOut 0.5s 1s forwards;
+  animation: slideLoadingOut 1s 2s forwards;
   z-index: 5;
 }
 
@@ -161,6 +161,7 @@ body {
   font-size: 3.35rem;
   padding: 1rem 2.5rem;
   white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .homepage-titles-wrap {
@@ -217,7 +218,7 @@ body {
 .homepage-amy-text {
   flex-basis: 100%;
   text-align: center;
-  padding-top: 7rem;
+  padding-top: 8.5rem;
   padding-right: 6rem;
 }
 
@@ -370,6 +371,62 @@ font-size: 3rem;
 
 .body-text img {
   width: 70%;
-  height: 40%;
+  height: 40%
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
 
+.fade-in {
+  opacity: 0;
+}
+
+.fade-in-now {
+  animation: appear 1s backwards; 
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .landing-hero-title h1 {
+    font-size: 3.3rem;
+  }
+
+  .homepage-amy-image {
+    position: absolute;
+    display: none;
+  }
+
+  .homepage-amy-text {
+    padding: 2rem;
+    padding-top: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .homepage-amy-text h1 {
+    position: relative;
+    font-size: 1.9rem;
+  }
+
+  .homepage-amy-text iframe {
+    width: 50%;
+  }
+
+  .homepage-amy {
+
+  }
 }
