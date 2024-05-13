@@ -221,8 +221,9 @@ body {
 
 .homepage-amy-text h1 {
   position: absolute;
-  top: 0;
+  top: -0.5rem;
   right: 0;
+  font-size: 3rem;
 }
 
 .homepage-text {
@@ -377,12 +378,10 @@ body {
     opacity: 1;
     transform: translateY(0rem);
   }
-
 }
 
 #bio-link {
-color: #bebebe;
-
+  color: #bebebe;
 }
 
 .fade-in {

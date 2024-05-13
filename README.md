@@ -1,5 +1,6 @@
 ## Getting Started
 - Live at "https://digital-web-maia.web.app"
+- More info within the [INFORMATION](./INFORMATION.md) file
 
 ### Publish changes to the website
 1. Follow steps below for "Saving your code to GitHib"

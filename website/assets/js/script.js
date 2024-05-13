@@ -10,6 +10,8 @@ var quotes = [
     `"Life's short. Anything could happen, and it usually does, so there is no point in sitting around thinking about all the ifs, and buts."`,
     `"I'm not frightened of appearing vulnerable."`
 ];
+// Quote words being delayed
+var quoteDelays = [];
 
 function showQuote() {
     // Get random number
@@ -19,11 +21,13 @@ function showQuote() {
 
     // Remove the previous quote
     document.querySelector(`.amy-quote`).innerHTML = '';
+    // Clear all the timeouts
+    quoteDelays.forEach((timeout) => clearTimeout(timeout));
 
     // Loop over all the words in the quote
     quote.forEach((word, index) => {
         // We wait 0.5 seconds for each word to appear
-        setTimeout(() => {
+        var timeoutNumber = setTimeout(() => {
             // Create a span element
             var span = document.createElement(`span`);
             // Set the span element text to the word
@@ -31,11 +35,14 @@ function showQuote() {
             // Add the span element to the quote
             document.querySelector(`.amy-quote`).appendChild(span);
 
-            // Scroll the quote element into view smoothly
-            document.querySelector(`.amy-quote`).scrollIntoView({
-                behavior: 'smooth'
-            });
-        }, index * 500);
+            if (index < 2) {
+                // Scroll the quote element into view smoothly if one of the first words
+                document.querySelector(`.amy-quote`).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        }, index * 300);
+        quoteDelays.push(timeoutNumber);
     });
 }
 
