@@ -20,3 +20,6 @@
 
 ### How to share the code?
 - The code is publicly available on GitHub [https://github.com/MaiaComley/digital-web-2023](https://github.com/MaiaComley/digital-web-2023)
+- It can be cloned using a Git client (like GitHub Desktop), or downloaded as a `.ZIP` file on the GitHub
+
+![ezgif-3-8b0781e08d](https://github.com/MaiaComley/digital-web-2023/assets/9806346/91ae663d-d3cd-4f1c-8a02-1bfa0b07ee0f)
